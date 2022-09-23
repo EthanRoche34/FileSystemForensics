@@ -1,0 +1,2 @@
+Prefetch Directory is  C:\Users\shado\AppData\Local\Temp\Autopsy\Case\autopsy_20211028_170921\RecentActivity\image.dd-prefetch
+DB file is  C:\Users\shado\Desktop\College\Semester3\Forensics\Assignment 1\Autopsy\ModuleOutput\prefetch\image.dd-Autopsy_PF_DB.db3

@@ -1,0 +1,42 @@
+54 48 45 4d   41 53 7e 31   54 58 54 00   10 02 f8 60           T H E M   A S ~ 1   T X T .   . . . 
+55 53 00 00   00 00 18 5e   55 53 04 00   4f 01 00 00           U S . .   . . . ^   U S . .   O . . .
+
+File Name(First 8)[0-7]: 54 48 45 4d 41 53 7e 31 - THEMAS~1
+
+Extension(Next 3)[8-10]: 54 58 54 - TXT
+
+Attribute byte [11]: 00 read only
+
+Reserved[12]: 10
+  16 in decimal
+
+Created Time(10th of sec)[13]: 02
+   2 tenths
+
+Created Time(H:M:S): f8 60 reversed 60 f8
+  01100 000111 11000
+  12    7      24
+  12:07:24
+
+Created Date[16-17]: 53 55
+   0101001 1010 10101
+   1980+41 10   21
+   2021    Oct  21
+
+Accessed Date [18-19]: 00 00
+
+High 2 bytes[20-21]: 00 00 always 0 for FAT 12
+
+(Next 2) Time Modified[22-23]: 18 5e reverse 5e 18
+   01011 110000 11000
+   11    48     24
+   11:48:24
+
+(next 2) Date Modified[24-25]: 53 55
+   0101001 1010 10101
+   1980+41 10   21
+   2021    Oct  21
+
+(Next 2 from end) Cluster num [26-27]: 004 
+
+File Size (Last 4, little)[28-31] : 00 00 01 4f: 335

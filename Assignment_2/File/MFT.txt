@@ -1,0 +1,36 @@
+ 4 6 4 9 4 c 4 5   3 0 0 0 0 3 0 0   0 0 0 0 0 0 0 0   0 0 0 0 0 0 0 0          
+ 0 1 0 0 0 1 0 0   3 8 0 0 0 1 0 0   9 8 0 1 0 0 0 0   0 0 0 4 0 0 0 0           
+ 0 0 0 0 0 0 0 0   0 0 0 0 0 0 0 0   0 4 0 0
+
+Signature 0-3: FILE
+Offset to Fixup 4-5: 3 0 0 0: (Little endian) == 00 30: 48  
+
+Entries in Fixup 6-7: 0 3 0 0: (Little endian) == 00 03: 3
+
+Logfile sequence num 8-15: 0 0 0 0 0 0 0 0   0 0 0 0 0 0 0 0
+Sequence Value 16-17: 0 1 0 0 (little?) == 00 01: 1?
+
+Link Count 18-19: 0 1 0 0 == 00 01: 1?
+
+**Can find standard info
+Where to find header
+Header of byte 16, standard info
+Resident or non resident
+After 16 size for resident stuff
+^
+|
+
+Offset to first attribute 20-21: 3 8 0 0 == 00 38 : 56
+
+Flags 22-23: 0 1 0 0 == 00 01: 1?
+
+Used size of MFT entry (24-27): 9 8 0 1 0 0 0 0 == 00 00 01 98: 408
+
+Allocated size of MFT entry (28-31): 0 0 0 4 0 0 0 0 == 00 00 04 00 ? = 1024
+File Ref to base record (32-39): 0 0 0 0 0 0 0 0   0 0 0 0 0 0 0 0
+
+Next Attribute ID(40-41): 04 00 == 00 04 ?
+
+
+
+Fixup Array

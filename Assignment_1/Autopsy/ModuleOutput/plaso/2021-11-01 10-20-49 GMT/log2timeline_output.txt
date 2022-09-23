@@ -1,0 +1,10 @@
+
+Source path	: C:\Users\shado\Desktop\College\Semester3\Forensics\Assignment 1\Image\image.dd
+Source type	: storage media image
+Processing time	: 00:00:00
+
+Processing started.
+Worker_00 (PID: 21680) - events produced: 21 - file: TSK:/Asgn1/Folder4/The robberies.txt - running: True
+Worker_01 (PID: 4220) - events produced: 6 - file: TSK:/Asgn1/Folder4/Map.xls.png - running: True
+Processing completed.
+

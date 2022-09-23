@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2021/10/28 17:09:21 (BST)</CreatedDate>
+  <ModifiedDate>2021/10/28 17:09:29 (BST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.18.0</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.18.0</SavedByAutopsyVersion>
+  <Case>
+    <Name>autopsy_20211028_170921</Name>
+    <DisplayName>Autopsy</DisplayName>
+    <Number/>
+    <Examiner>Ethan Roche</Examiner>
+    <ExaminerPhone/>
+    <ExaminerEmail/>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>

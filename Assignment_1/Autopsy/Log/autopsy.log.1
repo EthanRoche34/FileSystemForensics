@@ -1,0 +1,58 @@
+2021-11-02 22:40:16.28 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2021-11-02 22:40:16.509 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2021-11-02 22:40:16.531 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2021-11-02 22:40:16.532 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2021-11-02 22:40:16.547 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2021-11-02 22:40:19.449 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2021-11-02 22:40:20.055 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.25.2 loaded in native mode
+2021-11-02 22:40:20.182 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened Autopsy (autopsy_20211028_170921) in C:\Users\shado\Desktop\College\Semester3\Forensics\Assignment_1\Autopsy as the current case
+2021-11-02 22:40:20.182 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Retrieving images for case: autopsy.db...
+2021-11-02 22:40:20.185 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening all filesystems for image: image.dd...
+2021-11-02 22:40:20.206 org.sleuthkit.autopsy.casemodule.Case$BackgroundOpenFileSystemsTask run
+WARNING: Error while opening file systems in background
+org.sleuthkit.datamodel.TskCoreException: Error stat(ing) image file (raw_open: image "C:\Users\shado\Desktop\College\Semester3\Forensics\Assignment 1\Image\image.dd" - No such file or directory)
+	org.sleuthkit.datamodel.SleuthkitJNI.openImgNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.openImage(SleuthkitJNI.java:882)
+	org.sleuthkit.datamodel.SleuthkitJNI.openImage(SleuthkitJNI.java:825)
+	org.sleuthkit.datamodel.Image.getImageHandle(Image.java:127)
+	org.sleuthkit.datamodel.FileSystem.getFileSystemHandle(FileSystem.java:113)
+	org.sleuthkit.datamodel.FileSystem.read(FileSystem.java:72)
+	org.sleuthkit.autopsy.casemodule.Case$BackgroundOpenFileSystemsTask.openFileSystems(Case.java:2125)
+	org.sleuthkit.autopsy.casemodule.Case$BackgroundOpenFileSystemsTask.run(Case.java:2150)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2021-11-03 12:15:55.259 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Stopping Solr 8 server
+2021-11-03 12:15:55.263 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Setting Solr 8 directory: C:\Program Files\Autopsy-4.18.0\autopsy\solr
+2021-11-03 12:15:55.263 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Running Solr 8 command: [C:\Program Files\Autopsy-4.18.0\autopsy\solr\bin\autopsy-solr.cmd, stop, -k, jjk#09s, -p, 23232] from C:\Program Files\Autopsy-4.18.0\autopsy\solr
+2021-11-03 12:15:55.297 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Finished running Solr 8 command
+2021-11-03 12:15:55.297 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Waiting for Solr server to stop
+2021-11-03 12:15:57.547 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Finished stopping Solr server
+2021-11-03 12:15:57.547 org.sleuthkit.autopsy.core.Installer <init>
+INFO: core installer created
+2021-11-03 12:15:58.264 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case Autopsy (autopsy_20211028_170921) in C:\Users\shado\Desktop\College\Semester3\Forensics\Assignment_1\Autopsy
+2021-11-03 12:16:00.388 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case Autopsy (autopsy_20211028_170921)
+2021-11-03 12:16:00.391 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2021-11-03 12:16:00.402 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case Autopsy (autopsy_20211028_170921)

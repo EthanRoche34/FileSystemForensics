@@ -1,0 +1,97 @@
+45 46 49 20 50 41 52 54 00 00 01 00 5C 00 00 00 
+F7 9F 40 CF 00 00 00 00 01 00 00 00 00 00 00 00
+AF 32 CF 1D 00 00 00 00 22 00 00 00 00 00 00 00 
+8E 32 CF 1D 00 00 00 00 E1 75 24 EA 55 04 CB 46 
+AF 61 C5 33 0F 99 9F 54 02 00 00 00 00 00 00 00 
+80 00 00 00 80 00 00 00 1F A3 B6 1D 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+Signature Value EFIPART (0-7)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+45 46 49 20 50 41 52 54
+EFI PART
+
+Version (8-11)
+~~~~~~~~~~~~~~
+00 00 01 00
+Version 1.0
+Current Version
+
+Size of GPT header in bytes (12-15)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5C 00 00 00
+Little Endian
+00 00 00 5C
+92 Bytes
+
+CRC32 (16-19)
+~~~~~~~~~~~~~
+F7 9F 40 CF
+Little Endian
+CF 40 9F F7
+
+Reserved(20-23)
+~~~~~~~~~~~~~~~
+00 00 00 00
+
+LBA of current header(24-31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+01 00 00 00 00 00 00 00
+Little Endian 
+01
+
+LBA of other header(32-39)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+AF 32 CF 1D 00 00 00 00
+Little Endian 
+00 00 00 00 1D CF 32 AF
+Converted to Decimal: 500,118,191
+
+LBA of start of partition area(40-47)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+22 00 00 00 00 00 00 00
+Little Endian
+22
+Conv to decimal: 34
+
+LBA of end of partition area(48-55)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+8E 32 CF 1D 00 00 00 00
+
+00 00 00 00 1D CF 32 8E
+Converted to Decimal: 500,118,158
+
+Disk GUID(56-71)
+~~~~~~~~~~~~~~~~
+E1 75 24 EA 55 04 CB 46 
+AF 61 C5 33 0F 99 9F 54
+Or
+0x549F990F33C561AF46CB0455EA2475E1
+
+LBA of start of the partition table(72-79)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+02 00 00 00 00 00 00 00
+Little endian
+02
+
+Number of areas in the partition table (80-83)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+80 00 00 00
+
+80
+Conv to decimal: 128
+
+Size of each entry in the partition table(84-87)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+80 00 00 00 
+
+00 00 00 80
+128 in decimal
+
+CRC32 Partition table checksum(88-91)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1F A3 B6 1D
+or
+0x1DB6A31F
+
